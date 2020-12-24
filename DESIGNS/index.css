@@ -60,7 +60,7 @@ a {
 @media only screen and (max-width: 670px) {
     #nav {
        font-size: 8px;
-   padding: 5px;
+   padding: 4px;
        }
    }
    
@@ -82,7 +82,7 @@ li {
 @media only screen and (max-width: 767px) {
     li {
        font-size: 8px;
-      padding: 7px;
+      padding: 4px;
    }
    }
    
@@ -98,7 +98,7 @@ a {
 @media only screen and (max-width: 767px) {
     #inputsearch {
        font-size: 8px;
-   padding: 7px;
+   padding: 5px;
        }
    }
    
@@ -113,7 +113,7 @@ a {
 @media only screen and (max-width: 767px) {
     #search {
        font-size: 8px;
-   padding: 7px;
+   padding: 4px;
        }
    }
    
@@ -126,7 +126,7 @@ a {
 @media only screen and (max-width: 767px) {
     select {
        font-size: 8px;
-      padding: 7px;
+      padding: 4px;
    }
    }
    
@@ -191,11 +191,24 @@ a {
   width: 30%;
   }
 
+@media only screen and (max-width: 767px) {
+    .column {
+       font-size: 5px;
+     height: 40%;
+    }
+   }
+   
 .column1 {
-  width: 15%;
+  width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  
-}
+  }
+
+@media only screen and (max-width: 767px) {
+    .column1 {
+       font-size: 5px;
+      height: 40%;
+    }
+   }
 
 #events {
   padding-left: 45px;
@@ -222,6 +235,12 @@ figure {
 figcaption {
   padding: 7px 10px 7px 10px;
 }
+
+@media only screen and (max-width: 767px) {
+    figcaption {
+       font-size: 5px;
+    }
+   }
 
 img {
   height: 60%;
