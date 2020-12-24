@@ -56,6 +56,14 @@ a {
  background-color: rgba(255, 255, 255, 0.3);
 }
 
+@media only screen and (max-width: 670px) {
+    #nav {
+       font-size: 8px;
+   padding: 7px;
+       }
+   }
+   
+
 #list {
   list-style-type: none;
   top: 0;
