@@ -36,6 +36,7 @@ header {
    transform: translate(-50%, -50%);*/
 }
 
+   
 #register {
   padding: 8px;
   color: white;
@@ -59,7 +60,7 @@ a {
 @media only screen and (max-width: 670px) {
     #nav {
        font-size: 8px;
-   padding: 7px;
+   padding: 5px;
        }
    }
    
@@ -78,7 +79,13 @@ li {
   spacing: 0.4;
   padding: 0 20px 0 20px;
 }
-
+@media only screen and (max-width: 767px) {
+    li {
+       font-size: 8px;
+      padding: 7px;
+   }
+   }
+   
 a {
   color: black;
 }
@@ -113,6 +120,12 @@ a {
  padding-left: 25px;
   }
 
+@media only screen and (max-width: 767px) {
+    #about {
+       font-size: 10px;
+   }
+   }
+   
 #imgabout {
   float: ;
   padding-top: 40px;
