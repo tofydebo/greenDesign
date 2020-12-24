@@ -95,6 +95,13 @@ a {
   border-radius: 6px;
 }
 
+@media only screen and (max-width: 767px) {
+    #inputsearch {
+       font-size: 8px;
+   padding: 7px;
+       }
+   }
+   
 #search {
   color: white;
   background-color: black;
@@ -103,11 +110,26 @@ a {
   text-align: center;
 }
 
+@media only screen and (max-width: 767px) {
+    #search {
+       font-size: 8px;
+   padding: 7px;
+       }
+   }
+   
+
 #select {
   border: none;
   background: transparent;
 }
 
+@media only screen and (max-width: 767px) {
+    select {
+       font-size: 8px;
+      padding: 7px;
+   }
+   }
+   
 #two {
   background-color: white;
   display: flex;
@@ -122,7 +144,8 @@ a {
 
 @media only screen and (max-width: 767px) {
     #about {
-       font-size: 10px;
+       font-size: 7px;
+      height: auto;
    }
    }
    
